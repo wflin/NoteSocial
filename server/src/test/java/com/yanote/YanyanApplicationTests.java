@@ -1,4 +1,4 @@
-package com.yanyan;
+package com.yanote;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,12 +1,12 @@
-package com.yanyan;
+package com.yanote;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class YanyanApplication {
+public class YanoteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(YanyanApplication.class, args);
+		SpringApplication.run(YanoteApplication.class, args);
 	}
 }
