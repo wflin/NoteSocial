@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view id="header" class="tab">
+  <view class="tab-item" bindtap="switchtab" data-t="0">
+    <text class="tbi-text">学习资料</text>
+  </view>
+  <view class="tab-item" bindtap="switchtab" data-t="1">
+    <text class="tbi-text">专业问答</text>
+  </view>
+  <view class="tab-item" bindtap="switchtab" data-t="2">
+    <text class="tbi-text">需求广场</text>
+  </view>
+  <navigator url="../search/index" class="tab-item" id="lastsearch">
+    <icon type="search" size="18" color="#666" />
+  </navigator>
+</view>

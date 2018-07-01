@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "研研笔记",
+    "navigationBarTextStyle":"write"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/unindex.png",
+        "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "校圈",
+        "iconPath": "images/unschool.png",
+        "selectedIconPath": "images/school.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "发布",
+        "iconPath": "images/unrelease.png",
+        "selectedIconPath": "images/release.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "消息",
+        "iconPath": "images/unmessage.png",
+        "selectedIconPath": "images/message.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "images/unmy.png",
+        "selectedIconPath": "images/my.png"
+      }
+    ]
+  }
+}
