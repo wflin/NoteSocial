@@ -1,6 +1,8 @@
 //index.js
 //获取应用实例
 const app = getApp()
+const iconList = require('../../data/four-icon-data')
+const list = require('../../data/index-tuijian-data')
 
 Page({
   data: {
@@ -16,6 +18,9 @@ Page({
     })
   },
   onLoad: function () {
+    this.setData(iconList)
+    this.setData(list)
+    console.log(list)
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
